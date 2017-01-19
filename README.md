@@ -73,6 +73,7 @@
 		    </style>
 
 ###7. 拷贝以下内容到activity中
+> 注意 ： 应该继承的是Activity ，而不是AppCompatActivity
 
 		@Override
 	    protected void onCreate(Bundle savedInstanceState) {
@@ -128,6 +129,8 @@
 
 			  <color name="actionbar_bg">#330000ff</color>
 	    	  <color name="statusbar_bg">#33ff0000</color>
+		  
+	3. 界面应该继承的是Activity ，而不是AppCompatActivity
 
 
 * 详细的使用方法在DEMO里面都演示啦,如果你觉得这个库还不错,请赏我一颗star吧~~~
